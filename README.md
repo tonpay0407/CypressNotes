@@ -27,3 +27,8 @@ package.json - cypress dependency is added here
 Locating Elements - 
 cy.get(selector)
 CSS selector we can write in different ways - .class
+
+Tips:
+Send keys in selenium == type in cypress
+/// <reference types="Cypress" /> - Add thsi to get intellisense 
+cypress get acts like find element
